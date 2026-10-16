@@ -1,0 +1,86 @@
+// Chaque module métier de l'ERP a une couleur fixe, utilisée partout :
+// icône de la sidebar, barre d'accent des cartes, badges de statut, graphiques.
+// Objectif : que l'utilisateur reconnaisse un module à sa couleur, sans lire le texte.
+
+export const MODULES = {
+  commercial: {
+    label: 'Commercial',
+    solid: '#5b5fef',
+    soft: '#eeeeff',
+    text: '#4347c4',
+    from: '#7d80f5',
+    to: '#5b5fef',
+  },
+  logistique: {
+    label: 'Logistique',
+    solid: '#ff9f43',
+    soft: '#fff4e8',
+    text: '#c9701c',
+    from: '#ffb35f',
+    to: '#ff9f43',
+  },
+  production: {
+    label: 'Production',
+    solid: '#22c55e',
+    soft: '#eafbf1',
+    text: '#16a34a',
+    from: '#4ade80',
+    to: '#22c55e',
+  },
+  finance: {
+    label: 'Finance',
+    solid: '#06b6d4',
+    soft: '#e6fbff',
+    text: '#0891b2',
+    from: '#22d3ee',
+    to: '#06b6d4',
+  },
+  rh: {
+    label: 'Ressources humaines',
+    solid: '#8b5cf6',
+    soft: '#f3effe',
+    text: '#7c3aed',
+    from: '#a78bfa',
+    to: '#8b5cf6',
+  },
+  achats: {
+    label: 'Achats',
+    solid: '#14b8a6',
+    soft: '#e9fbf8',
+    text: '#0d9488',
+    from: '#2dd4bf',
+    to: '#14b8a6',
+  },
+  qualite: {
+    label: 'Qualité',
+    solid: '#d946ef',
+    soft: '#fdf0fe',
+    text: '#c026d3',
+    from: '#e879f9',
+    to: '#d946ef',
+  },
+  planning: {
+    label: 'Planning',
+    solid: '#6366f1',
+    soft: '#eef0fe',
+    text: '#4f46e5',
+    from: '#818cf8',
+    to: '#6366f1',
+  },
+  gmo: {
+    label: 'GMAO',
+    solid: '#f97316',
+    soft: '#fff2e8',
+    text: '#c2410c',
+    from: '#fb923c',
+    to: '#f97316',
+  },
+  alerte: {
+    label: 'Alerte',
+    solid: '#f43f5e',
+    soft: '#ffe9ed',
+    text: '#e11d48',
+    from: '#fb7185',
+    to: '#f43f5e',
+  },
+}
